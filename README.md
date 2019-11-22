@@ -1,24 +1,7 @@
 # markdown-writer
 
-## Project setup
-```
-yarn install
-```
+Nothing special. Just preview markdown as html with fancy styles.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Links for development:
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [Conditional stylesheet loading](https://stackoverflow.com/questions/47893611/conditional-stylesheet-in-vue-component)
