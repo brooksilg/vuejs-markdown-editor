@@ -1,3 +1,4 @@
 export default {
   editorText: '',
+  renderedHTML: '',
 };

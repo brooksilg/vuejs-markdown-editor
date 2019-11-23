@@ -14,11 +14,11 @@ export default {
   name: 'Editor',
   computed: {
     ...mapState([
-      'inputMarkdown',
+      'editorText',
     ]),
     textAreaContent: {
       get() {
-        return this.inputMarkdown;
+        return this.editorText;
       },
       set(value) {
         this.updateEditorText(value);
