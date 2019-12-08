@@ -2,7 +2,7 @@
   <div class="preview">
     <!-- eslint-disable vue/no-v-html -->
     <div
-      class="preview-html"
+      class="preview-html markdown-body"
       v-html="renderedHTML"
     />
     <!-- eslint-enable vue/no-v-html -->
@@ -27,6 +27,7 @@ export default {
 </script>
 
 <style>
+  @import '../assets/css/github-markdown.min.css';
   .preview {
     padding: 20px;
   }
