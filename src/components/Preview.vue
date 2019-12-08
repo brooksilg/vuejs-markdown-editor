@@ -29,6 +29,15 @@ export default {
 <style>
   @import '../assets/css/github-markdown.min.css';
   .preview {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
     padding: 20px;
+    box-sizing: border-box;
   }
 </style>
