@@ -1,9 +1,8 @@
 <template>
-  <div>
-    <h1>Preview</h1>
+  <div class="preview">
     <!-- eslint-disable vue/no-v-html -->
     <div
-      class="preview"
+      class="preview-html"
       v-html="renderedHTML"
     />
     <!-- eslint-enable vue/no-v-html -->
@@ -26,3 +25,9 @@ export default {
   },
 };
 </script>
+
+<style>
+  .preview {
+    padding: 20px;
+  }
+</style>

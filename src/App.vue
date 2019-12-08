@@ -1,7 +1,18 @@
 <template>
   <div id="app">
-    <Editor />
-    <Preview />
+    <rs-panes
+      split-to="columns"
+      :allow-resize="true"
+      size="50"
+      units="percents"
+    >
+      <div slot="firstPane">
+        <Editor />
+      </div>
+      <div slot="secondPane">
+        <Preview />
+      </div>
+    </rs-panes>
   </div>
 </template>
 
@@ -17,3 +28,10 @@ export default {
   },
 };
 </script>
+
+<style>
+  html, body{
+    margin: 0;
+    padding: 0;
+  }
+</style>
